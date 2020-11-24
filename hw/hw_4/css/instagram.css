@@ -1,0 +1,172 @@
+body{
+    background:#FAFAFA;
+    padding: 0;
+    margin: 0;
+}
+.body{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.portfolio{
+   display: flex;
+   justify-content:center;
+   width: 935px;
+   height: 618px;
+   margin-top: 64px;
+   padding-bottom: 64px;
+}
+.phone_image{
+    width: 454px;
+    height: 618px;
+    margin-left: -35px;
+    margin-right: -15px;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+}
+.table{
+    width:350px;
+    height: 606px;
+    margin-top: 12px;
+}
+.inputs{
+    background:white;
+    width: 348px;
+    height: 355.8px;
+    padding: 10px 0px;
+    border: 1px solid rgb(219, 219, 219);
+    margin-bottom: 10px;
+    justify-content:center;
+    text-align: center;
+}
+.sign_up{
+    width: 348px;
+    height: 40.6px;
+    padding: 10px 0px;
+    border: 1px solid rgb(219, 219, 219);
+    margin-bottom: 10px;
+    text-align:center;
+    background:white;
+}
+.google{
+    width: 350px;
+    height: 100.8px;
+}
+.text{
+    font-family:Arial;
+    font-size:14px;
+    text-align:center;
+    margin: 20px 20px;
+}
+.icons{
+    text-align:center;
+}
+.insta_logo{
+    width: 175px;
+    height: 51px;
+    margin: 22px 86.5px 12px 86.5px;
+}
+.passwords{
+    width: 346px;
+    height: 211.2px;
+    margin-top: 24px;
+}
+.facebook{
+    width: 268px;
+    height: 19.2px;
+    text-align: center;
+    padding:0px 40px;
+    margin-top: 20px;
+}
+.forgot{
+    width: 348px;
+    height: 13.6px;
+    margin-top: 12px;
+    display: flex;
+    justify-content:center;
+}
+#for{
+    text-decoration: none;
+    line-height:14px;
+    font-size: 12px;
+    font-weight: 400;
+    color:rgb(0, 55, 107);
+    font-family:Arial;
+}
+.forms{
+    width: 250px;
+    height: 20px;
+    padding: 9px 0px 7px 8px;
+    font-size: 16px;
+    line-height: 18.4px;
+    background:#FAFAFA;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius:3px;
+}
+.forms:last-child{
+    margin-top:7px;
+}
+.forms_log{
+    width:260px;
+    height:29.6px;
+    margin:8px 40px;
+    padding:0;
+    border:0;
+    background: #B2DFFC;
+    text-align:center;
+    position:relative;
+    border-radius: 3px;
+    margin-top:14px;
+    font-family: Arial;
+    font-size:14px;
+    line-height:18px;
+    color:white;
+    font-style:bold;
+    font-weight:600;
+}
+.OR{
+    margin:10px 40px 18px 40px;
+}
+.sgn{
+    margin:15px;
+    font-size:14px;
+    font-family: Arial;
+    font-weight:300;
+    color:rgb(38, 38, 38);
+    box-sizing: border-box;
+}
+#sgn{
+    font-size: 14px;
+    font-style:bold;
+    font-weight:600;
+    color:rgb(0, 149, 246);
+}
+.footer{
+    margin: 0px 44.2px;
+    font-family:Arial;
+    font-size:12px;
+    font-weight:600;
+    padding:38px;
+    margin-right: 16px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    padding: 2px;
+    margin-bottom:3px;
+    font-weight:600;
+    color:rgb(0, 55, 107);
+}
+
+
+ @media(max-width:1080px){
+             .phone_image{
+                 display:none;
+                 box-sizing: content-box;
+             }
+             .table{
+                display:table;
+                 box-sizing: border-box;
+             }
+         }
+
